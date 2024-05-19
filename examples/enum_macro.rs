@@ -16,10 +16,8 @@ struct DirectionUp<T> {
 }
 
 fn main() {
-    //let up = Direction::from(DirectionUp::new(42));
-    let up: Direction<u32> = DirectionUp::new(42).into();
+    let up = Direction::from(DirectionUp::new(42));
     let left: Direction<u32> = 10.into();
-    //let right: Direction = (10, 20).into();
 
     println!("up {:?}, left {:?}", up, left);
 }

@@ -8,6 +8,7 @@ proc-macro = true
 
 [dependencies]
 anyhow = "1.0.86"
+darling = "0.20.9"
 futures = { version = "0.3.30", default-features = false }
 proc-macro2 = "1.0.82"
 quote = "1.0.36"
